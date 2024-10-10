@@ -62,10 +62,67 @@
             </div>
             <div class="col-10 p-4">
                 <h1>Tambah</h1>
-                <div class="mb-3"></div>
+                <div class="mb-3">
+                    <label class="form-label" id="judul">Judul</label>
+                    <input type="text" class="form-control" id="judul">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="sinopsis">Sinopsis</label>
+                    <textarea class="form-control" rows="3" id="sinopsis"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="durasi">Durasi</label>
+                    <input type="number" class="form-control" id=durasi>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="batas-usia">Batas Usia</label>
+                    <select class="form-select" id="batas-usia">
+                        <option selected></option>
+                        <option value="1">Semua Usia</option>
+                        <option value="2">18r</option>
+                        <option value="3">13r</option>
+                        <option value="4">7r</option>
+                        <option value="5">3r</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="thumnail">Thumnail</label>
+                    <input type="file" class="form-control" id="thumnail">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="thumnail">Rating</label>
+                    <input type="number" class="form-control" id="thumnail" max="10" min="0">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" id="tanggal-rilis">Tanggal Rilis</label>
+                    <input type="date" class="form-control" id="tanggal-rilis">
+                </div>
+                <div class=mb-3>
+                    <label class="form-label" id="genre">Genre</label>
+                    <select class="form-select" id="genre">
+                        <option selected></option>
+                        <option value="1">Horror</option>
+                        <option value="2">Survival</option>
+                        <option value="3">Fighting</option>
+                        <option value="4">Simulator</option>
+                        <option value="5">Tycoon</option>
+                        <option value="6">Moba</option>
+                        <option value="7">Open World</option>
+                        <option value="8">Tower Defends</option>
+                        <option value="9">Rhythm</option>
+                        <option value="10">Visual Novel</option>
+                        <option value="11">Turn Based</option>
+                        <option value="12">Metroidvania</option>
+                        <option value="13">Roguelike</option>
+                        <option value="14">FPS</option>
+                        <option value="15">Bullet Hell</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <a href="#" class="btn btn-primary">Lanjut</a>
+                </div> 
             </div>
         </div>
     </div>
 </body>
-
 </html>
